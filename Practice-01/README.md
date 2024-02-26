@@ -1,6 +1,6 @@
 ## Practice-01 - Docker
 
-** Use Dockerfile to run an App (myscript.py) inside a container
+** Use Dockerfile to run an App (myscript.py) inside a container **
 
 docker network create mired [create network]
 
