@@ -40,7 +40,7 @@ docker compose -f stack-billing.yml up -d [create container using Docker compose
 docker compose -f stack-billing.yml build [probe building]
 
 
-** Checking data persistance
+## Checking data persistance
 
 docker system prune --all
 docker volume prune

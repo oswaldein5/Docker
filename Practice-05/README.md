@@ -25,12 +25,12 @@ deploy:
 docker compose -f stack-billing.yml up -d --force-recreate
 
 networks:
-  # Network PROD
+  ### Network PROD
   env_prod:
     driver: bridge
     driver_opts:
       com.docker.networl.enable_ipv6: "true"
-    # Ip Address Manager
+    ### Ip Address Manager
     ipam:
       driver: default
       config:
