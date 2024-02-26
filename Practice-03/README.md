@@ -1,6 +1,6 @@
-## Practice-03 - Use Dockerfile for create Backend and Frontend
+# Practice-03 - Use Dockerfile for create Backend and Frontend
 
-** Create file.yml in directory Practice-03
+## Create file.yml in directory Practice-03
 
 docker build -t billingapp:prod --no-cache --build-arg JAR_FILE=target/*.jar . [create image]
 
