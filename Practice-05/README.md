@@ -1,10 +1,6 @@
 # Docker Compose - Practice-05
-	## 1. Backend
-	## 2. Frontend
-	## 3. Adminer BD
-	## 4. BD using volume data persistance
-	## 5. Resources (Limits, reservations)
-	## 6. Networks
+### Backend | Frontend | Adminer BD | BD using persistance
+### Resources (Limits, reservations) | Networks
 
 - Update file.yml in directory Practice-05
 - `docker stats`
