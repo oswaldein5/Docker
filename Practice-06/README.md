@@ -1,6 +1,5 @@
 # Docker Swarm - Practice-06
-### Database engine | Database admin
-### App Backend with replicas | App Frontend with replicas
+### Database engine | Database admin | Apps with replicas
 	
 ## Initialize
 `docker swarm init`
