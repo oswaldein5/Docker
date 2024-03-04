@@ -1,8 +1,5 @@
 # Docker Compose - Practice-04
-###		- Backend
-###		- Frontend
-###		- Adminer BD
-###		- BD using persistance
+###	Backend | Frontend | Adminer BD | BD using persistance
 
 - Create file.yml in directory Practice-04
 - `docker compose -f stack-billing.yml up -d`
