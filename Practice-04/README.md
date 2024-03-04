@@ -1,19 +1,21 @@
 # Docker Compose - Practice-04
-	## 1. Backend
-	## 2. Frontend
-	## 3. Adminer BD
-	## 4. BD using volume data persistance
+##	- Backend
+##	- Frontend
+##	- Adminer BD
+##	- BD using persistance
 
 - Create file.yml in directory Practice-04
 - `docker compose -f stack-billing.yml up -d`
 - [check adminer] (http://localhost:9090)
 - `docker inspect id-container`: check containers setup
 - Rewrite stack-billing.yml breaking down and building each component as a service.:
-	services:
-		postgres_db:
-		adminer:
-		billingapp-back:
-		billingapp-front:
+```
+services:
+	postgres_db:
+	adminer:
+	billingapp-back:
+	billingapp-front:
+```
 - create Dockerfile for Java
 - create Dockerfile for Angular
 - `docker compose -f stack-billing.yml stop`: stopping previous container created by compose
